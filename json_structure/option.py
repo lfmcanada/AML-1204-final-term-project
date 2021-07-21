@@ -2,5 +2,5 @@ from option_value import OptionValue
 
 
 class Option:
-    label = None
-    value = OptionValue()
+    label: str = None
+    value: OptionValue = OptionValue()

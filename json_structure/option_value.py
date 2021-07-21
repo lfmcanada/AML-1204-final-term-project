@@ -1,6 +1,6 @@
 class OptionValueInput:
-    text = None
+    text: str = None
 
 
 class OptionValue:
-    input = OptionValueInput()
+    input: OptionValueInput = OptionValueInput()
