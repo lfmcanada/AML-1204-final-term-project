@@ -1,5 +1,6 @@
-from output_value import OutputValue
-from option import Option
+from json_structure.option import Option
+from json_structure.output_value import OutputValue
+
 
 class GenericOutput:
     values: list[OutputValue] = []

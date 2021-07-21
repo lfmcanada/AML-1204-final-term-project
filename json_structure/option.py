@@ -1,4 +1,4 @@
-from option_value import OptionValue
+from json_structure.option_value import OptionValue
 
 
 class Option:

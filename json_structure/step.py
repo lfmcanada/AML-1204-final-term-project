@@ -1,9 +1,13 @@
-from step_output import StepOutput
+from json_structure.step_output import StepOutput
+
+
 class StepResolver:
     type: str = None
+
+
 class Step:
-    step : str = None
-    output : StepOutput
-    handlers : list[str] = []
+    step: str = None
+    output: StepOutput
+    handlers: list[str] = []
     resolver: StepResolver = StepResolver()
-    variable : str = None
+    variable: str = None

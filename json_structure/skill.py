@@ -13,7 +13,7 @@ class Skill:
     updated: str = 'YYYY-MM-DDTHH:MM:SS.MMMZ'
     language: str = 'en'
     skill_id: str = None
-    workspace: Workspace
+    workspace: Workspace = Workspace()
     description: str = None
     workspace_id: str = None
     dialog_settings: DialogSettings = DialogSettings()
