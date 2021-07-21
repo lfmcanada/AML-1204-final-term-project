@@ -7,7 +7,7 @@ class StepResolver:
 
 class Step:
     step: str = None
-    output: StepOutput = StepOutput()
+    output: StepOutput
     handlers: list[str] = []
     resolver: StepResolver = StepResolver()
     variable: str = None
