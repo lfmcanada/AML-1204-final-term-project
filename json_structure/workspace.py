@@ -11,7 +11,7 @@ class Workspace:
     intents: list[Intent] = []
     entities: list[Entity] = []
     metadata: Metadata = Metadata()
-    variables: list[Variable]
+    variables: list[Variable] = []
     counterexamples: [] = []
     system_settings: SystemSettings = SystemSettings()
     learning_opt_out: bool = False
