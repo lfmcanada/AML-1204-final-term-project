@@ -4,5 +4,5 @@ class ExcelInput:
     field3 = ''
 
 
-def load_excel_file(filename):
-    return None
+def load_excel_file(filename: str) -> list[ExcelInput]:
+    return []
